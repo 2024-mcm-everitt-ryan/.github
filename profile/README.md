@@ -1,5 +1,5 @@
 # Paper's Additional Material Section
-- Appendices and Test Results: https://github.com/2024-mcm-everitt-ryan/appendices
+- **Appendices and Test Results**: [https://github.com/2024-mcm-everitt-ryan/appendices](https://github.com/2024-mcm-everitt-ryan/appendices/blob/main/appendices.pdf)
 - Hugging Face Project: https://huggingface.co/2024-mcm-everitt-ryan
 - Datasets: https://huggingface.co/?activityType=update-dataset&feedType=org&entity=2024-mcm-everitt-ryan
 - Fine-Tuned Models: https://huggingface.co/?activityType=update-model&feedType=org&entity=2024-mcm-everitt-ryan
