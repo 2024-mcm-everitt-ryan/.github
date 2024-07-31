@@ -7,6 +7,7 @@
 - Apache HOP Workflow/Pipeline: https://github.com/2024-mcm-everitt-ryan/hop-pipeline
 - Apache HOP Plugins Developed for the Study: https://github.com/2024-mcm-everitt-ryan/hop-plugins/tree/main/plugin-code 
 
+# Project's Summary
 
 **Abstract**—This study explores the application of large language (LLM) models for detecting implicit bias in job descriptions, an important concern in human resources that shapes applicant pools and influences employer perception.
 We compare different LLM architectures—encoder, encoder-decoder, and decoder models—focusing on seven specific bias types. 
@@ -14,7 +15,7 @@ The research questions address the capability of foundation LLMs to detect impli
 Results indicate that fine-tuned models are more effective in detecting biases, with Flan-T5-XL emerging as the top performer, surpassing the zero-shot prompting of GPT-4o model.
 A labelled dataset consisting of verified gold-standard, silver-standard, and unverified bronze-standard data was created for this purpose and [open-sourced](https://huggingface.co/datasets/2024-mcm-everitt-ryan/benchmark) to advance the field and serve as a valuable resource for future research.
 
-# Short Introduction
+## Short Introduction
 In human resources, bias affects both employers and employees in explicit and implicit forms. Explicit bias is
 conscious and controllable, but can be illegal in employment
 contexts. Implicit bias is subtle, unconscious, and harder to
@@ -49,7 +50,7 @@ bias in job descriptions? We fine-tune models with varying architectures as text
 and compare their performance to that of prompt-tuned
 models.
 
-# Model Architecture Overview
+## Model Architecture Overview
 
 
 The [models selected](https://huggingface.co/2024-mcm-everitt-ryan) for our study are given.
@@ -84,11 +85,11 @@ Additionally, OpenAI’s GPT-4 autoregressive model was
 used for several purposes in this study: data preprocessing,
 data augmentation, and as a prompting baseline
 
-# Baselines
+## Baselines
 - [bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased)
 - [gpt-4o zero-shot](https://platform.openai.com/docs/models/gpt-4o)
 
-# Prompting Overview
+## Prompting Overview
 We evaluated the instruction-tuned decoder
 models using four prompting approaches:
 
@@ -112,19 +113,19 @@ among these outputs. We applied three iterations of
 chain-of-thought reasoning with a majority vote for each
 label.
 
-# Evaluation
+## Evaluation
 - F1
 - Precision
 - Recall
 - Exact Match Ratio (EMR)
 
-# Dataset: Potential Job Description Bias Dataset
+## Dataset: Potential Job Description Bias Dataset
 
 |![Potential Bias Terms (in Millions)](https://huggingface.co/spaces/2024-mcm-everitt-ryan/README/resolve/main/03_potential-terms.png)|
 |:--:|
 |Potential Bias Terms found in Real Job Description Dataset (in Millions)|
 
-# Dataset: Gold and Silver Samples
+## Dataset: Gold and Silver Samples
 
 |![Annotated Samples: Bias vs Neutral](https://huggingface.co/spaces/2024-mcm-everitt-ryan/README/resolve/main/03_bias-vs-neutral.png)|
 |:--:|
@@ -136,8 +137,7 @@ label.
 |Annotated Samples by Bias Category|
 
 
-# Results: Overall
-
+## Results: Overall
 
 |![Fine-Tuning vs Prompting Performance](https://huggingface.co/spaces/2024-mcm-everitt-ryan/README/resolve/main/05_ft_vs_prompt.png)|
 |:--:|
@@ -147,15 +147,11 @@ label.
 |:--:|
 |Model Performance: Precision vs Recall|
 
-
-
-
-# Results: By Bias Category
+## Results: By Bias Category
 
 |![Top Performers’ Comparison Against Baseline Models](https://huggingface.co/spaces/2024-mcm-everitt-ryan/README/resolve/main/05_labels-radar-chart.png)|
 |:--:|
 |Top Performers’ Comparison Against Baseline Models|
-
 
 
 |![F1 Scores Across Various Categories and Experiments; Fine-Tuning (FT) and Prompting (PT)](https://huggingface.co/spaces/2024-mcm-everitt-ryan/README/resolve/main/08_label-boxplots.png)|
