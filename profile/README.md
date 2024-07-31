@@ -1,3 +1,13 @@
+# Paper's Additional Material Section
+- Appendices and Test Results: https://github.com/2024-mcm-everitt-ryan/appendices
+- Hugging Face Project: https://huggingface.co/2024-mcm-everitt-ryan
+- Datasets: https://huggingface.co/?activityType=update-dataset&feedType=org&entity=2024-mcm-everitt-ryan
+- Fine-Tuned Models: https://huggingface.co/?activityType=update-model&feedType=org&entity=2024-mcm-everitt-ryan
+- Notebooks: https://github.com/2024-mcm-everitt-ryan/notebooks
+- Apache HOP Workflow/Pipeline: https://github.com/2024-mcm-everitt-ryan/hop-pipeline
+- Apache HOP Plugins Developed for the Study: https://github.com/2024-mcm-everitt-ryan/hop-plugins/tree/main/plugin-code 
+
+
 **Abstract**—This study explores the application of large language (LLM) models for detecting implicit bias in job descriptions, an important concern in human resources that shapes applicant pools and influences employer perception.
 We compare different LLM architectures—encoder, encoder-decoder, and decoder models—focusing on seven specific bias types. 
 The research questions address the capability of foundation LLMs to detect implicit bias and the effectiveness of domain adaptation via fine-tuning versus prompt-tuning.
